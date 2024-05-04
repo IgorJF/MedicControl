@@ -67,8 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\forms.css" />
+    <Content Include="assets\css\cadastroContainer.css" />
+    <Content Include="assets\css\formCadastro.css" />
+    <Content Include="assets\css\formLogin.css" />
+    <Content Include="assets\css\leftSideCadastro.css" />
+    <Content Include="assets\css\leftSideLogin.css" />
+    <Content Include="assets\css\loginContainer.css" />
     <Content Include="assets\css\reset.css" />
+    <Content Include="assets\css\rightSideCadastro.css" />
+    <Content Include="assets\css\rightSideLogin.css" />
     <Content Include="assets\img\emailicon.png" />
     <Content Include="assets\img\medicon.png" />
     <Content Include="assets\img\passicon.png" />
@@ -95,6 +102,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\fonts\Gotham-Black.otf" />
+    <Content Include="assets\fonts\Gotham-Bold.otf" />
+    <Content Include="assets\fonts\Gotham-Light.otf" />
+    <Content Include="assets\fonts\GothamBook.ttf" />
+    <Content Include="assets\fonts\GothamMedium.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

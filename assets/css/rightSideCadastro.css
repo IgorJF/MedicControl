@@ -1,0 +1,18 @@
+﻿
+
+.right-side-cadastro {
+    width: 55%;
+    height: 100%;
+    background-color: #ededed;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: relative;
+    text-align: center;
+}
+
+    .right-side-cadastro .formCadastro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }

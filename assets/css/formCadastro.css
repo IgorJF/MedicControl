@@ -1,0 +1,123 @@
+﻿@font-face {
+    font-family: GothamBlack;
+    src: url(../fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../fonts/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(../fonts/Gotham-Light.otf);
+}
+
+.right-side-cadastro .cadastro-text {
+    font-size: 30px;
+    color: #7fc3f3;
+    font-family: "GothamBlack";
+}
+
+.right-side-cadastro .formCadastro .btnCadastro {
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 100px;
+    background-color: #7fc3f3;
+    border: solid 1px #273844;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    color: #ededed;
+    font-family: "GothamLight";
+    transition: 0.3s;
+}
+
+    .right-side-cadastro .formCadastro .btnCadastro:hover {
+        background-color: #273844;
+        border: solid 1px #7fc3f3;
+        transform: scale(110%);
+        transition: 0.3s;
+    }
+
+.formCadastro .txtEmpresa {
+    background-image: url(../img/medicon.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px center;
+    padding-left: 100px;
+    width: 30em;
+    background-color: #e1e1e1;
+    border: solid 1px #888888;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "GothamBook";
+}
+
+    .formCadastro .txtEmpresa::placeholder {
+        text-indent: 25px;
+    }
+
+.formCadastro .txtNome {
+    background-image: url(../img/personicon.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px center;
+    padding-left: 100px;
+    width: 30em;
+    background-color: #e1e1e1;
+    border: solid 1px #888888;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "GothamBook";
+}
+
+    .formCadastro .txtNome::placeholder {
+        text-indent: 25px;
+    }
+
+.formCadastro .txtEmail {
+    background-image: url(../img/emailicon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px center;
+    padding-left: 100px;
+    width: 30em;
+    background-color: #e1e1e1;
+    border: solid 1px #888888;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "GothamBook";
+}
+
+    .formCadastro .txtEmail::placeholder {
+        text-indent: 25px;
+    }
+
+.formCadastro .txtSenhaCadastro {
+    background-image: url(../img/passicon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px center;
+    padding-left: 100px;
+    width: 30em;
+    background-color: #e1e1e1;
+    border: solid 1px #888888;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "GothamBook";
+}
+
+    .formCadastro .txtSenhaCadastro::placeholder {
+        text-indent: 25px;
+    }
+
+    .formCadastro .txtEmail,
+    .formCadastro .txtEmpresa,
+    .formCadastro .txtNome,
+    .formCadastro .txtSenhaCadastro:focus {
+        text-indent: 25px;
+    }
